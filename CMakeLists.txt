@@ -24,5 +24,11 @@ install(PROGRAMS
   RENAME motor_encoder
 )
 
+install(PROGRAMS
+  src/gerak_robot.py
+  src/kembali_ke_awal.py
+  src/trial_belok.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 ament_package()
